@@ -5,7 +5,7 @@ date:   2015-01-10 23:20:08
 categories: observability tech
 ---
 
-I've been a professional computery person for about 20 years as of the time I'm writing this. I've enjoyed working on ways to make my comptuer systems shit "observable" for at least 15 of those 20 years.
+I've been a professional computery person for about 20 years as of the time I'm writing this. I've enjoyed working on ways to make my computer systems shit "observable" for at least 15 of those 20 years.
 
 # Humble Beginnings
 
