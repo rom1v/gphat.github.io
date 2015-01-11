@@ -15,11 +15,9 @@ Digression: I remember when my dynamic charts were actually written to the files
 
 Right. Charts. So I made my own!
 
-I don't remember when I did this. I also don't remember *how*. It was probaby bad. Regardless it was fun and I got hooked on it. So when I left the company with all the crazy Loggerithim stuff I decided I would just work on charting.
-
 # Chart::Clicker
 
-Now you can see how my most "famous" OSS contribution came to be. [Chart::Clicker](https://metacpan.org/pod/Chart::Clicker) is a Perl module that started out simple and become *insane*. I wrote a prodiguous amount of code to support a crazy idea and, in the process, I became a better programmer.
+Now you can see how [Chart::Clicker](https://metacpan.org/pod/Chart::Clicker) came to be. This library started out simple and become *insane*. I wrote a prodiguous amount of code to support a crazy idea and became a better programmer.
 
 # The Crazy
 
