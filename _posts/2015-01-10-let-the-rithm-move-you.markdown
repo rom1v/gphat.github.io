@@ -21,7 +21,7 @@ Loggerithim worked with Solaris and Linux machines, since that's what we ran at 
 
 # So Awesome
 
-Loggerithim was *so* fucking awesome. It did basically everything. Inventory? You got it. It kept historical time series information for all manner of system metrics. It monitored threshold and notified us of problems. It even logged event data to correlate it with… I dunno *important stuff*. On top of that it [used SSL](https://github.com/gphat/loggeragent/blob/master/src/network.c#L70). For all I know it even used it correctly!
+Loggerithim was *so* fucking awesome. It did basically everything. Inventory? You got it. It kept historical time series information for all manner of system metrics. It monitored thresholds and notified us of problems. It even logged event data to correlate it with… I dunno *important stuff*. On top of that it [used SSL](https://github.com/gphat/loggeragent/blob/master/src/network.c#L70). For all I know it even used it correctly!
 
 ![Loggerithim!](/assets/images/lr-over.png)
 
