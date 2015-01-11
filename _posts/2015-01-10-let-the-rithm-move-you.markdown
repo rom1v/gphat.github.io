@@ -9,7 +9,7 @@ I've been a professional computery person for about 20 years as of the time I'm 
 
 # Humble Beginnings
 
-My first stab at making systems mire observable was a cron job that periodically output [Solaris'](http://en.wikipedia.org/wiki/Solaris_%28operating_system%29) [sar](http://docs.oracle.com/cd/E23824_01/html/821-1451/spmonitor-8.html) counters to… something. I forget were the state was kept. Probably just the filesystem. On a single box, cuz that was how we rolled back then. Each evening, I'd generate a transparent GIF from the day's counters. The fancy tool I wrote, likely some sort of Perl script, let you put in a number of days and *overlaid the fucking GIFs*. Day over day comparison, motherfuckers!
+My first stab at making systems more observable was a cron job that periodically output [Solaris'](http://en.wikipedia.org/wiki/Solaris_%28operating_system%29) [sar](http://docs.oracle.com/cd/E23824_01/html/821-1451/spmonitor-8.html) counters to… something. I forget were the state was kept. Probably just the filesystem. On a single box, cuz that was how we rolled back then. Each evening, I'd generate a transparent GIF from the day's counters. The fancy tool I wrote, likely some sort of Perl script, let you put in a number of days and *overlaid the fucking GIFs*. Day over day comparison, motherfuckers!
 
 # Overly Ambitious Middles
 
