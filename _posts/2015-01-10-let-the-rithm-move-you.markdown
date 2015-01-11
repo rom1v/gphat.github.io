@@ -13,7 +13,7 @@ My first stab at making systems more observable was a cron job that periodically
 
 # Overly Ambitious Middles
 
-Fast forward a couple years, but at the same company. Now I'm considerably more badass. I created [Loggerithim](https://github.com/gphat/loggerithim). The idea was to learn the *rhythm* of your systems using software. Algorithims are a software word, sooooo Logger-ithm! Except I didn't know how to spell algarithm at the time. Hyuck!
+Fast forward a couple years, but at the same company. Now I'm considerably more badass. I created [Loggerithim](https://github.com/gphat/loggerithim). The idea was to learn the *rhythm* of your systems using software. Algorithim is a software word, sooooo Logger-ithm! Except I didn't know how to spell algarithm at the time. Hyuck!
 
 Loggerithim worked with Solaris and Linux machines, since that's what we ran at this company. Each host ran the [loggeragent](https://github.com/gphat/loggeragent). This agent, written in C, used [plugins](https://github.com/gphat/loggeragent/tree/master/plugins) to enable metric collection, information gathering and even some manner of system automation. The idea that developed over many years was that the system that collected all this data could eventually *act* on it, right?
 
