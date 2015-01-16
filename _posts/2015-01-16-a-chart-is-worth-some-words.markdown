@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Chart Is Worth Some Words"
-date:   2015-01-15 23:20:08
+date:   2015-01-16 09:01:08
 categories: observability charting
 ---
 
