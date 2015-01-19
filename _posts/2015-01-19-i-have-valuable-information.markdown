@@ -27,7 +27,7 @@ Unplug now and then. I've taken to leaving Twitter off and reading just a few hi
 
 As if this wasn't enough, [as many as 40% of successful people consider themselves frauds](http://en.wikipedia.org/wiki/Impostor_syndrome#Prevalence). Even if this isn't a systemtic problem for you the same studies say that 70% of people feel this way "at one time or another". Fighting the push from both inside *and* outside to value yourself is hard.
 
-Be careful not to swing too far over into the [Dunning-Kruger effect](http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect). But since you're reading this I assume you won't come close to that.
+Be careful not to swing too far over into the [Dunning-Kruger effect](http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect). That fucker cuts both wasys. But since you're reading this I assume you won't come close to that.
 
 # Quality Is Job Zero
 
