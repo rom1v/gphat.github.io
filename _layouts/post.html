@@ -12,6 +12,17 @@ layout: default
     {{ content }}
   </article>
 
-   <a href="https://github.com/gphat/feedback/issues/new"><button class="btn btn-default btn-info"><i class="fa fa-comments-o"></i> Leave Me Feedback</button></a>
+  <p>
+  <a href="https://github.com/gphat/feedback/issues/new"><button class="btn btn-default btn-info"><i class="fa fa-comments-o"></i> Leave Me Feedback</button></a>
+  </p>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title"><i class="fa fa-rss"></i> Like What You Are Reading?</div>
+    </div>
+    <div class="panel-body">
+      Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS!</a>
+    </div>
+  </div>
 
 </div>
