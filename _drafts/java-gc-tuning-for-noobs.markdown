@@ -5,6 +5,8 @@ date:   2015-01-18 09:01:08
 categories: java gc
 ---
 
+FIXME: http://jprante.github.io/2012/11/28/Elasticsearch-Java-Virtual-Machine-settings-explained.html
+
 The JVM is voodoo. Garbage collection is *double voodoo*. How is one to make sense of all of this shit? I'm not sure I know all the answers, but I can help you get on your way.
 
 # JVM Options

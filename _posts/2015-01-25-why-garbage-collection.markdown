@@ -62,6 +62,12 @@ Not so simple now, eh?
 
 Even darling [Javscript has GC](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management). The implementations are scattered because each browser ships their own JS runtime but as of 2012 all browsers ship a mark-and-sweep GC for Javascript.  Fancy, eh?
 
+**Update 01/25/2015**: As a matter of fact Kaushik Srenevasan, lead on the VM Diagnostics team at Twitter and friend of the show, wrote in to say that JavaScript is "the most advanced VC and GC implementation" and adds "among dynamic language implementations". He further tells us that [V8](https://code.google.com/p/v8/), Google's OSS JavaScript engine, is the latest in a history of virtual machine luminaries that began with [Self](http://en.wikipedia.org/wiki/Self_%28programming_language%29) and preceded through [HotSpot](http://en.wikipedia.org/wiki/HotSpot).
+
+You can [see Kaushik talking about his team's work on JVM profiling on YouTube](https://www.youtube.com/watch?v=Yg6_ulhwLw0).
+
+It's really impressive how quickly JavaScript's technical implementations have grown. It's also very interesting to me that this deeply technical aspect of CompSci so deeply permeates our work and we barely even notice! Yay for the engineers that do this work.  Thanks Kaushik!
+
 ## Java
 
 Like any complex machine, Java has a lot of knobs, switches, bells and whistles. Because of the breadth of workloads for Java and, I imagine, because of the technical nature of it's virtual machine, there are *lots* of GC options for Java.
@@ -73,3 +79,7 @@ The important choices are between throughput and latency. Throughput optimizes f
 # The Tip Of The Iceberg
 
 The above should give you some reasonable undersatnding of why GC is such a Big Deal™. Java catches shit for being complicated in this regard. This is a tradeoff of complexity for customization! Even your friendly neighbordhood scripting languages make use of garbage collection and the effects can be surprising. In the future, we'll spend more time discussing garbage collection!
+
+# Changelog
+
+* Added point about JavaScript's guts from Kaushik Srenevasan
