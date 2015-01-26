@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "GC Tuning for Noobs: Part 3"
+date:   2015-01-18 09:01:08
+categories: java gc
+---
+
 ## Generations and Ratios
 
 To speed things up the JVM uses a *generational* system. When an object is created it is allocated in the *young generation*. If it stays around for a while (i.e. is still in use or has references in the running program) then it is *promoted* to the *old generation*.
