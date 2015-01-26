@@ -74,11 +74,11 @@ Like any complex machine, Java has a lot of knobs, switches, bells and whistles.
 
 The choices exist because Java takes the stance that no single garbage collection implementation is right for all workloads. The above dynamic languages are proof that your approach to GC must change as a language matures. Furthermore it is a dance to balance different workloads with your GC implementation. Java's GC is modular and therefore some burden is placed on the engineer to figure out how best to use it.
 
-The important choices are between throughput and latency. Throughput optimizes for really fast allocations, but has the downside of low pause times and predictable latency. Other collectors offer lower latency and pause times but have lower throughput.
+The important choices are between throughput and latency. Throughput optimizes for really fast allocations, but has the downside of low pause times and unpredictable latency. Other collectors offer lower latency and pause times but have lower throughput.
 
 # The Tip Of The Iceberg
 
-The above should give you some reasonable undersatnding of why GC is such a Big Deal™. Java catches shit for being complicated in this regard. This is a tradeoff of complexity for customization! Even your friendly neighbordhood scripting languages make use of garbage collection and the effects can be surprising. In the future, we'll spend more time discussing garbage collection!
+The above should give you some reasonable understanding of why GC is such a Big Deal™. Java catches shit for being complicated in this regard. This is a tradeoff of complexity for customization! Even your friendly neighborhood scripting languages make use of garbage collection and the effects can be surprising. In the future, we'll spend more time discussing garbage collection!
 
 # Changelog
 
