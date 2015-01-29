@@ -62,7 +62,7 @@ Not so simple now, eh?
 
 Even darling [Javscript has GC](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management). The implementations are scattered because each browser ships their own JS runtime but as of 2012 all browsers ship a mark-and-sweep GC for Javascript.  Fancy, eh?
 
-**Update 01/25/2015**: As a matter of fact Kaushik Srenevasan, lead on the VM Diagnostics team at Twitter and friend of the show, wrote in to say that JavaScript is "the most advanced VC and GC implementation" and adds "among dynamic language implementations". He further tells us that [V8](https://code.google.com/p/v8/), Google's OSS JavaScript engine, is the latest in a history of virtual machine luminaries that began with [Self](http://en.wikipedia.org/wiki/Self_%28programming_language%29) and preceded through [HotSpot](http://en.wikipedia.org/wiki/HotSpot).
+**Update 01/25/2015**: As a matter of fact Kaushik Srenevasan, lead on the VM Diagnostics team at Twitter and friend of the show, wrote in to say that JavaScript is "the most advanced VM and GC implementation" and adds "among dynamic language implementations". He further tells us that [V8](https://code.google.com/p/v8/), Google's OSS JavaScript engine, is the latest in a history of virtual machine luminaries that began with [Self](http://en.wikipedia.org/wiki/Self_%28programming_language%29) and preceded through [HotSpot](http://en.wikipedia.org/wiki/HotSpot).
 
 You can [see Kaushik talking about his team's work on JVM profiling on YouTube](https://www.youtube.com/watch?v=Yg6_ulhwLw0).
 
