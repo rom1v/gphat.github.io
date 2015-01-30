@@ -754,15 +754,6 @@ Enabling JMX is also a great idea because you can hook up tools like JVisualVM o
 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=$PUT_PORT_HERE -Djava.rmi.server.hostname=$PUT_HOSTNAME_HERE
 </pre>
 
-<div class="panel panel-warning">
-    <div class="panel-heading">
-        <div class="panel-title"><i class="fa fa-rss"></i> No Authentication?</div>
-    </div>
-    <div class="panel-body">
-        If this is a box available on the public internet be sure and swap that authenticate=false to true above!
-    </div>
-</div>
-
 ## HeapDump
 
 <pre>
