@@ -1,28 +1,30 @@
 ---
 layout: post
-title:  "GC Tuning for Noobs: Part 2"
-date:   2015-01-18 09:01:08
+title:  "Java GC Tuning for Noobs: Part 1"
+date:   2015-01-29 19:43:08
 categories: java gc
 ---
 
-FIXME: http://jprante.github.io/2012/11/28/Elasticsearch-Java-Virtual-Machine-settings-explained.html
+{% include gc.html %}
 
-The JVM is voodoo. Garbage collection is *double voodoo*. How is one to make sense of all of this shit? I'm not sure I know all the answers, but I can help you get on your way.
+The JVM is voodoo. [Garbage collection]({% post_url 2015-01-25-why-garbage-collection %}) is *double voodoo*. How is one to make sense of all of this shit? I'm not sure I know all the answers, but I can help you get on your way.
 
 # JVM Options
 
 Whether it's good ol' fashioned Java or newfangled [Scala](http://scala-lang.org) or [Clojure](http://clojure.org) code, you are still running on top of the JVM.
 
-You can send an option to the JVM to get a list of all the flags and their default values using `java -XX:+PrintFlagsInitial`. Note that you can also supply options to see their effect on final flags by including them a la `java -Xmx4G -XX:+PrintFlagsInitial`.
+You can send an option to the JVM to get a list of all the flags and their default values using `java -XX:+PrintFlagsFinal`. Note that you can also supply options to see their effect on final flags by including them a la `java -Xmx4G -XX:+PrintFlagsFinal`.
 
 Here's [Oracle's documentation on JVM options](http://www.oracle.com/technetwork/java/javase/tech/vmoptions-jsp-140102.html). Note that this is for Java 7, but Java 8 has links right at the top.
 
 # Defaults
 
-Here's the output of `java -XX:+PrintFlagsInitial` from one of my production machines:
+Soooo this is gonna be a giant box of shit, but we're gonna refer back to it in other post so here goes!
+
+Here's the output of `java -XX:+PrintFlagsFinal` from one of my production machines:
 
 <pre>
-java -XX:+PrintFlagsInitial
+java -XX:+PrintFlagsFinal
 [Global flags]
     uintx AdaptivePermSizeWeight                    = 20              {product}
     uintx AdaptiveSizeDecrementScaleFactor          = 4               {product}
@@ -729,6 +731,8 @@ uintx MaxHeapSize                              := 1073741824      {product}
 </pre>
 
 # Default Options
+
+There are a few options that are good to turn on pretty much all the time. Let's talk about them shits!
 
 ## GC Logging
 
