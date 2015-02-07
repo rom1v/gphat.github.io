@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GC Tuning for Noobs Part 2: Generational"
+title:  "Java GC Tuning for Noobs Part 2: Generational"
 date:   2015-02-07 09:01:08
 categories: java gc
 ---
