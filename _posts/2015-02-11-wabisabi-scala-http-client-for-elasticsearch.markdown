@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Wabisabi: An HTTP Client for ElasticSearch"
-date:   2015-01-26 09:01:08
-categories: programming elasticsearch oss
+title:  "Wabisabi: A Scala HTTP Client for ElasticSearch"
+date:   2015-02-11 08:01:08
+categories: programming oss
 ---
 
 [ElasticSearch](http://www.elasticsearch.org) is pretty great. I found it after spending a lot of time with [Solr](http://lucene.apache.org/solr/)
@@ -35,7 +35,7 @@ Each of these was novel at the time. There are more [Scala clients](http://www.e
 
 {% highlight scala %}
 // Add the Dep
-libraryDependencies += "wabisabi" %% "wabisabi" % "2.0.11"
+libraryDependencies += "wabisabi" %% "wabisabi" % "2.0.14"
 
 // And a the resolver
 resolvers += "gphat" at "https://raw.github.com/gphat/mvn-repo/master/releases/"
@@ -64,7 +64,7 @@ The `Response` above is [Response](http://asynchttpclient.github.io/async-http-c
 
 # That's Not All
 
-Importantly, Wabisabi also implements quite a bit of the features that ES exposes. As an example here's a sample that creates an index, verifies it, applies a mapping and creates an alias! I used this to do upgrades of indices without interrupting reads and writes via aliasing.
+Importantly, Wabisabi also implements quite a few of the features that ES exposes. As an example here's a sample that creates an index, verifies it, applies a mapping and creates an alias! I used this to do upgrades of indices without interrupting reads and writes via aliasing.
 
 {% highlight scala %}
 esClient.createIndex(name = name, settings = Some(indexSettings)) map { f =>

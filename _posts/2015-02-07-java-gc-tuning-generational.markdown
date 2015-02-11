@@ -59,15 +59,7 @@ to **15** with default options, but we can change since it's a `product`!
 
 You may be asking what tenure is. Tenure is the number of GC cycles that an object has survived. Each iteration of GC increases the object's tenure counter.
 
-## NewSize
-
-The `NewSize` option allows you to explicitly define the size of the new generation.
-
-**NewSize**: The new size normally defaults to an *initial* size that is &#8531; of the total heap size. We're artificially setting this lower. Unless we know *why* it's better to let the JVM decide this for us.
-
-Again, that's the initial size. The `MaxNewSize` option dictates the **maximum** size.
-
-# Putting It Together
+## Putting It Together
 
 Fuuuuck we just spent a lot of time talking about a relatively small part of the JVM and it's memory model.  Why? Because knowing this behavior is important when understanding how to tune GC to your workload. Knowing that you generate lots of short-lived objects is important, as is knowing how many of your objects might make it into the OldGen.
 
