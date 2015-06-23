@@ -738,7 +738,7 @@ There are a few options that are good to turn on pretty much all the time. Let's
 
 It's a good idea to enable GC logging for your program. This will vomit all manner of moonspeak in to a log file for analysis later when we learn more and can figure it out.
 
-GC logging is effectively free and definitely worth what trivial amount of time it ocsts. I can't find any docs on this, but I know from past experience and conversations with JVM engineers that this is the case.
+GC logging is effectively free and definitely worth what trivial amount of time it costs. I can't find any docs on this, but I know from past experience and conversations with JVM engineers that this is the case.
 
 <pre>
 -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -XX:+PrintGCApplicationStoppedTime -XX:+PrintPromotionFailure -XX:PrintFLSStatistics=1 -Xloggc:$PUT_PATH_HERE -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=10M
