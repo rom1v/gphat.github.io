@@ -5,6 +5,8 @@ date:   2015-01-10 23:20:08
 categories: observability tech
 ---
 
+{% include observability.html %}
+
 I've been a professional computery person for about 20 years as of the time I'm writing this. I've enjoyed working on ways to make my computer systems shit "observable" for at least 15 of those 20 years.
 
 # Humble Beginnings
@@ -32,4 +34,3 @@ To this day former coworkers from that period of my career ask me if I still wor
 Up to the present day, this has been my *favorite* part of working with complex computer systems. **In some ways I think that I like working with and building these systems so that I can then visualize and study them!**
 
 I hope you've enjoyed this little digression into my past. There's another one of these I'm gonna write up next describing the deep, deep rabbit hole I ended up in after Loggerithim.
-

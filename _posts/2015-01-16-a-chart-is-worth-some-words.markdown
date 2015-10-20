@@ -5,6 +5,8 @@ date:   2015-01-16 09:01:08
 categories: observability charting
 ---
 
+{% include observability.html %}
+
 [Remember when I told you about Loggerithim](http://onemogin.com/observability/tech/let-the-rithm-move-you.html)? Those were good times! Now we get to talk about the deep, dark rabbit hole I fell in after my work on Loggerithim ended.
 
 Charts were my number one frustration when working with Loggerithim. It's hard to find a good charting library and it's harder to build a system around charts when you can't find a good library for it. At this time Javascript charting was shitty so dynamically generated charts were the thing to do.

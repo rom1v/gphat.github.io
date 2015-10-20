@@ -2,7 +2,7 @@
 layout: post
 title:  "GC Tuning for Noobs: Part 4"
 date:   2015-01-18 09:01:08
-categories: java gc
+categories: java
 ---
 
 The `UseConcMarkSweepGC` actually implicitly enabled `UseParNewGC` but we'll set it explicitly to ensure changes to the JVM don't change the behavior.
