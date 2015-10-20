@@ -9,21 +9,27 @@ categories: observability
 
 ## High-Level Overview
 
+## High-Level Design
+
 ## Agent
 
 ### Installation
 
+### Reliability
+
 ### System
 
-### Extensability
+### Extensibility
 
 ### Integrations
 
-### Frequency
+## Collection
+
+### Resolution
 
 ## Events
 
-## Events
+## Errors
 
 ## Visualization
 
@@ -34,3 +40,7 @@ categories: observability
 ## Notification
 
 ## Log Analysis
+
+## Support
+
+## Pricing
