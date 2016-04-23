@@ -64,6 +64,3 @@ You may be asking what tenure is. Tenure is the number of GC cycles that an obje
 Fuuuuck we just spent a lot of time talking about a relatively small part of the JVM and it's memory model.  Why? Because knowing this behavior is important when understanding how to tune GC to your workload. Knowing that you generate lots of short-lived objects is important, as is knowing how many of your objects might make it into the OldGen.
 
 With this information you can use the ratios to determine how your heap will be sliced up for various uses!
-
-Next we'll talk about workloads!
-
