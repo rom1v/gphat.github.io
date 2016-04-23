@@ -5,7 +5,7 @@ date:   2016-04-23 09:01:08
 categories: java gc
 ---
 
-We've previously covered [generational garbage collection](http://localhost:4000/java/gc/java-gc-tuning-generational.html) and why it's useful. The division
+We've previously covered [generational garbage collection](http://onemogin.comjava/gc/java-gc-tuning-generational.html) and why it's useful. The division
 of memory spaces allows us to more efficiently handle the work of collecting garbage. But that's not the end of optimizations. The next one we're going to
 discuss is parallelism.
 
