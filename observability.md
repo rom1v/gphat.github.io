@@ -27,7 +27,7 @@ My frustration with charting tools of the day lead me to create my own: a marvel
 
 ## Professional Work
 
-After joining Twitter in 2012 and quickly found my calling in the Observability team. I [learned, maintained and created some marvelous stuff](https://blog.twitter.com/2013/observability-at-twitter) in that role. My next gig at [Keen IO](https://keen.io) was not specifically observability, but after the lessons learned at Twitter making sure that Keen's systems were as observable as possible was a focus of my work.
+After joining Twitter in 2012 I quickly found my calling in the Observability team. I [learned, maintained and created some marvelous stuff](https://blog.twitter.com/2013/observability-at-twitter) in that role. My next gig at [Keen IO](https://keen.io) was not specifically observability, but after the lessons learned at Twitter making sure that Keen's systems were as observable as possible was a focus of my work.
 
 After joining Stripe in 2015 I worked to create an Observability team and worked to change Stripe's culture such that observing our systems was a core concern:
 
