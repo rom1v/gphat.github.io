@@ -1,6 +1,6 @@
 # Site settings
 title: One Mo' Gin
-email: contact@onemogin.com
+email: cory@onemogin.com
 description: > # this means to ignore newlines until "baseurl:"
   Because once is never enough.
 baseurl: "" # the subpath of your site, e.g. /blog/
