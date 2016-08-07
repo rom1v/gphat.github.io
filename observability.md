@@ -35,6 +35,8 @@ After joining Stripe in 2015 I worked to create an Observability team and worked
 <iframe src="https://player.vimeo.com/video/173610034?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/173610034">Monitorama PDX 2016 - Cory Watson - Creating A Culture of Observability at Stripe</a> from <a href="https://vimeo.com/monitorama">Monitorama</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+[Here are the slides if you prefer to flip through them rather than listen to me talk](http://www.slideshare.net/CoryWatson8/building-a-culture-of-observability-at-stripe).
+
 # Future
 
 I hope to continue learning, teaching and pushing Observability in to the future. I feel that it is essential to the technical and social well-being of technology companies by keeping operations and teams in tip-top shape!

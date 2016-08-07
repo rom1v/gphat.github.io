@@ -12,6 +12,8 @@ Recently I was lucky enough to be selected to speak at [Monitorama](http://www.m
 <iframe src="https://player.vimeo.com/video/173610034?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/173610034">Monitorama PDX 2016 - Cory Watson - Creating A Culture of Observability at Stripe</a> from <a href="https://vimeo.com/monitorama">Monitorama</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+[Here are the slides if you prefer to flip through them rather than listen to me talk](http://www.slideshare.net/CoryWatson8/building-a-culture-of-observability-at-stripe).
+
 The gist is pretty simple: When I joined Stripe I began a process of adding Observability to the company culture. You may be wondering what *observability* even is! Well,
 in [control theory](https://en.wikipedia.org/wiki/Control_theory), [observability](https://en.wikipedia.org/wiki/Observability) is a measure for how well internal states of a system can be inferred by knowledge of its external outputs.
 
