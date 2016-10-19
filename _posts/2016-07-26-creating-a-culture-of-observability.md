@@ -7,7 +7,7 @@ categories: observability stripe culture monitoring monitorama
 
 For a change of pace, I'd like to share a video of me talking, rather than writing something for you!
 
-Recently I was lucky enough to be selected to speak at [Monitorama](http://www.monitorama.com) 2016 in June and I'm proud to post the video here for anyone interested in the work.
+In June of 2016 I was lucky enough to be selected to speak at [Monitorama](http://www.monitorama.com) and I'm proud to post the video here for anyone interested in the work.
 
 <iframe src="https://player.vimeo.com/video/173610034?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/173610034">Monitorama PDX 2016 - Cory Watson - Creating A Culture of Observability at Stripe</a> from <a href="https://vimeo.com/monitorama">Monitorama</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
