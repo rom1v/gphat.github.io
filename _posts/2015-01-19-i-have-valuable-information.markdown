@@ -19,7 +19,7 @@ Consider the deluge of cool projects on GitHub and Hacker News that undermine th
 
 Twitter makes it easy to follow a hundred smart engineers from across the world and be overwhelmed by all their awesome ideas. Good ideas and cool code take time and being peppered by everyone else's constantly can feel like you're stuck in a fucking rut.
 
-I proffer that this proximity can make engineers feel really, really dumb. Why? Because these super-smark folks have accomplished so much and when we compare our accomplishments they seem small.
+I proffer that this proximity can make engineers feel really, really dumb. Why? Because these super-smart folks have accomplished so much and when we compare our accomplishments they seem small.
 
 Unplug now and then. I've taken to leaving Twitter off and reading just a few high quality tech blogs.
 
