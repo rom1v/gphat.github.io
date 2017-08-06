@@ -9,7 +9,7 @@ I find meeting other software engineers an interesting pastime. I don't like to 
 
 Tech talk often feels *competitive* to me. I'm not interested in competition. What I *am* interested in is recognizing that all of us know a lot of stuff. We also *have yet to learn* a lot of stuff. This is ok.
 
-Recently a conversation ended up in the area of public tech speaking. The idea that we must all be completely knowledgeable of all things before we dare speak about them aloud sucks. In this case I was reminded of my recent forays in to Java garbage collection. I feel as though I've barely touched the surface of this knowledge, but I am determined to publish what I've learned anyway becuase I know that other engineers I work with could benefit from my knowledge despite it not being *complete*.
+Recently a conversation ended up in the area of public tech speaking. The idea that we must all be completely knowledgeable of all things before we dare speak about them aloud sucks. In this case I was reminded of my recent forays in to Java garbage collection. I feel as though I've barely touched the surface of this knowledge, but I am determined to publish what I've learned anyway because I know that other engineers I work with could benefit from my knowledge despite it not being *complete*.
 
 **So be warned that I'mma write about GC soon and you can just *"Well, actually…"* your ass off and we'll all learn something.**
 
